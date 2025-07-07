@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "npm run build && wrangler pages deploy ./dist"
   },
   "devDependencies": {
     "astro": "^5.11.0",
-    "@astrojs/cloudflare": "^12.6.0"
+    "@astrojs/cloudflare": "^12.6.0",
+    "wrangler": "^4.23.0"
   },
   "engines": {
     "node": ">=18.0.0"
