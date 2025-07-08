@@ -1,6 +1,5 @@
 name = "caencore"
-pages_build_output_dir = "./dist"
+main = "./dist/_worker.js/index.js"
 compatibility_date = "2025-07-07"
-
-[env.production]
-workers_dev = false
+[assets]
+directory = "./dist"
