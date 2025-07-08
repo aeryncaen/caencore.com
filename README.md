@@ -21,6 +21,17 @@ npm run build
 
 The output will be generated in the `dist/` folder.
 
+## Running with Cloudflare Workers
+
+Build for server-side rendering and preview locally using Wrangler:
+
+```bash
+npm run build
+npm run preview
+```
+
+This serves your built site using Cloudflare Workers so you can test SSR locally.
+
 ## Deployment
 
 Deploy with Cloudflare Pages using either the Git integration or the Wrangler CLI.
